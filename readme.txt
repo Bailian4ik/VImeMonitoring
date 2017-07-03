@@ -1,0 +1,1 @@
+Автор мониторинга Bailian4ik(https://vk.com/bailian4ik)

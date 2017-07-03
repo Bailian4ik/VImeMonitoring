@@ -1,0 +1,7 @@
+Что бы установить мониторинг, нужно просто загрузить папку на ваш сайт:
+и вывести iframe :
+<iframe align="center" src="http://site.ru/monitoring/index.php" frameborder="no" height="400px" width="310px" scrolling="no"></iframe>
+
+В файле config.php находятся все настройки.
+
+Можно посмотреть демо мониторинга , demo.html
