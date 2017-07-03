@@ -1,0 +1,1 @@
+<div><b>{name}</b><div class="progress"><span class="percent">{off}</span><div class="bar" style="width:100%; background-color: #ff9c98;"></div></div></div>

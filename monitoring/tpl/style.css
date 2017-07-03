@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+    .progress {
+        width: 180px;
+        border: 1px solid #eee;
+        position: relative;
+        float: right;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .progress .bar {
+        height: 15px;
+        background-color: #98E2FF;
+    }
+    .progress .percent {
+        position: absolute;
+        left: 42%;
+        line-height: 16px;
+        color: #686868;
+        font-weight: 600;
+        font-family: monospace;
+    }
+    .monitoring-box {
+    background: white;
+    font-size: 14px;
+    padding: 9px 20px 15px;
+    z-index: 20;
+    }
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, hf5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+supersized.css:1
+* {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.monitoring-box #monitoring-content > div {
+    margin-bottom: 10px;
+}
+.monitoring-box .total {
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: center;
+    border-top: #eee solid 1px;
+}
+.monitoring-box .total .progress {
+    width: 100%;
+    float: none;
+}
+font {
+    font-family: "Arial Black";
+}
+b {
+    font: sans-serif;
+    font-weight: 600;
+    color: #686868;
+}

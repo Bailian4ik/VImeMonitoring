@@ -1,0 +1,1 @@
+<div><b>{name}</b><div class="progress"><span class="percent">{cur}/{max}</span><div class="bar" style="width:{percent}%;"></div></div></div>
