@@ -38,6 +38,15 @@ foreach ($confmon as $config){
 			file_put_contents('cache', json_encode($new));
 		}
 		
+		$t = json_decode(file_get_contents("cache"), true);
+			$t = time()-$t['day']['time'];
+			  if($t>=86400) {
+			  $new = json_decode(file_get_contents("cache"), true);
+			   $new['day']['time'] = time();
+			   $new['day']['slots'] = 0;
+			   file_put_contents('cache', json_encode($new));
+			  }
+
 	}catch(Minecraft\StatsException $e){
 		array_push($output, array("motd" => $MOTD, "offline" => 1));
 	}
